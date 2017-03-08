@@ -3,7 +3,6 @@ package com.io.nio;// $Id$
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.nio.ByteBuffer;
-import java.nio.DirectByteBuffer;
 import java.nio.channels.FileChannel;
 
 public class FastCopyFile {
@@ -37,6 +36,6 @@ public class FastCopyFile {
 
             fcout.write(buffer);
         }
-        ((DirectByteBuffer) buffer).
+
     }
 }
